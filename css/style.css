@@ -22,7 +22,7 @@
     position: relative;
 }
 
-.custom-banner-text{
+.custom-banner-text {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -84,6 +84,48 @@
 
 /* Simple Container */
 
-.simple-section{
+.simple-section {
     background-color: #d3f9f9;
+}
+
+/* Feature section  */
+.feature-section h4 {
+    margin: 20px 0px 10px;
+}
+
+.feature-icon {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+100 */
+    background: #48baff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left,
+            #48baff 0%,
+            #48baff 50%,
+            #5fc3ff 50%,
+            #5fc3ff 50%,
+            #5fc3ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,
+            #48baff 0%,
+            #48baff 50%,
+            #5fc3ff 50%,
+            #5fc3ff 50%,
+            #5fc3ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,
+            #48baff 0%,
+            #48baff 50%,
+            #5fc3ff 50%,
+            #5fc3ff 50%,
+            #5fc3ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff', GradientType=1);
+    /* IE6-9 */
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
