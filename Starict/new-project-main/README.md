@@ -1,1 +1,1 @@
-# new-project
+# starict PSD to HTML
